@@ -530,7 +530,7 @@ input.checkbox {
   margin: 0 auto;
   justify-content: space-between;
 }
-.lorem__title {
+.motives__lorem-title {
   color: var(--main-font-color);
   font-weight: 700;
   font-size: 14px;
@@ -538,13 +538,13 @@ input.checkbox {
   letter-spacing: 0.03em;
 }
 
-.lorem__paragraph {
+.motives__lorem-paragraph-container {
   height: 75px;
   width: 270px;
   margin-right: 30px;
 }
 
-.lorem__text {
+.motives__lorem-paragraph {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;

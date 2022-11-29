@@ -66,9 +66,31 @@ body {
   margin:0px;
 }
   .icons-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
+
+@media screen and (min-width: 768px) {
+      gap: 30px;
+      
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+      gap: 30px;
+    } 
+
+  &__icons-list__item {
+  @media screen and (min-width: 768px) {
+      flex-basis: 354px;
+      gap: 15px;
+       
+    }
+  }
    }
 
+   
    .icon {
   margin: auto auto;
 } 

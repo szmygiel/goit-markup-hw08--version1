@@ -1,7 +1,12 @@
 /* _____________Section: Czym się zajmujemy___________________ */
  
 .section-services {
-background-color: white;
+  display: none;
+  @media screen and (min-width: 1200px) {
+  display: block;
+  padding-bottom: 94px;
+  background-color: white;
+    }
 
 &__container {
   max-width: 1200px;
