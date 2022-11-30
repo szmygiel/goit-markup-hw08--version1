@@ -247,178 +247,364 @@
 
       <section class="section section-services">
         <div class="section-services__container">
-        <h2 class="secondary-header">Czym się zajmujemy</h2>
+          <h2 class="secondary-header">Czym się zajmujemy</h2>
 
-        <ul class="list section-services__list">
-          <li class="section-services__thumb">
-            <img  src="images/box1.jpg" alt="box1" width="370" />
-            <p class="section-services__label">Aplikacje komputerowe</p>
-          </li>
+          <ul class="list section-services__list">
+            <li class="section-services__thumb">
+              <img src="images/box1.jpg" alt="box1" width="370" />
+              <p class="section-services__label">Aplikacje komputerowe</p>
+            </li>
 
-          <li class="section-services__thumb">
-            <img src="images/box2.jpg" alt="box2" width="370" />
-             <p class="section-services__label">Aplikacje mobilne</p>
-          </li>
+            <li class="section-services__thumb">
+              <img src="images/box2.jpg" alt="box2" width="370" />
+              <p class="section-services__label">Aplikacje mobilne</p>
+            </li>
 
-          <li class="section-services__thumb">
-            <img src="images/box3.jpg" alt="box3" width="370" />
-             <p class="section-services__label">Rozwiązania graficzne</p>
-          </li>
-        </ul>
+            <li class="section-services__thumb">
+              <img src="images/box3.jpg" alt="box3" width="370" />
+              <p class="section-services__label">Rozwiązania graficzne</p>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="section section-team">
         <div class="section-team__container">
-        <h2 class="secondary-header">Nasz zespół</h2>
-        <ul class="list section-team__list">
-          <li>
-            <figure class="section-team__figure">
-              <img class="section-services__photo" src="images/img1.jpg" alt="John Doe" width="270" />
-              <figcaption class="section-team__figcaption"><span class="section-team__names">John Doe</span> <pre class="section-team__position">Product Designer</pre></figcaption>
-              <ul class="list section-team__icons-list">
-                <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-ig"></use>
-          </svg></li>
-                 <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-twitter-bird"></use>
-          </svg></li>
-                  <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-f"></use>
-          </svg></li>
-            <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-linkedin4"></use>
-          </svg></li>
-              </ul>
-            </figure>
-          </li>
+          <h2 class="secondary-header">Nasz zespół</h2>
+          <ul class="list section-team__list">
+            <li>
+              <figure class="section-team__figure">
+                <!-- Pictures - TEAM -->
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      images/img1.webp                      1x,
+                      /images/team-webp/team1desktop@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
 
-          <li>
-            <figure class="section-team__figure">
-              <img src="images/img2.jpg" alt="John Doe" width="270" />
-              <figcaption class="section-team__figcaption"><span class="section-team__names">John Doe</span> <pre class="section-team__position">Frontend Developer</pre></figcaption>
-            <ul class="list section-team__icons-list">
-                <li > <svg class="icon section-team__icon" width="44" height="44">
-          <use class="social-icon-our-team" href="./images/icons.svg#icon-ig"></use>
-          </svg></li>
-                 <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-twitter-bird"></use>
-          </svg></li>
-                  <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-f"></use>
-          </svg></li>
-            <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-linkedin4"></use>
-          </svg></li>
-              </ul>
-            </figure>
-          </li>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /images/team-webp/team1tablet.webp   1x,
+                      /images/team-webp/team1tablet@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
 
-          <li>
-            <figure class="section-team__figure">
-              <img src="images/img3.jpg" alt="John Doe" width="270" />
-              <figcaption class="section-team__figcaption"><span class="section-team__names">John Doe</span> <pre class="section-team__position">Marketing</pre></figcaption>
-            <ul class="list section-team__icons-list">
-                <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-ig"></use>
-          </svg></li>
-                 <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-twitter-bird"></use>
-          </svg></li>
-                  <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-f"></use>
-          </svg></li>
-            <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-linkedin4"></use>
-          </svg></li>
-              </ul>
-            </figure>
-          </li>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      images/team-webp/team1mobile.webp    1x,
+                      /images/team-webp/team1mobile@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
 
-          <li>
-            <figure class="section-team__figure">
-              <img src="images/img4.jpg" alt="John Doe" width="270" />
-              <figcaption class="section-team__figcaption"><span class="section-team__names">John Doe</span> <pre class="section-team__position">UI Designer</pre></figcaption>
-           <ul class="list section-team__icons-list">
-                <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-ig"></use>
-          </svg></li>
-                 <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-twitter-bird"></use>
-          </svg></li>
-                  <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-f"></use>
-          </svg></li>
-            <li> <svg class="icon section-team__icon" width="44" height="44">
-          <use href="./images/icons.svg#icon-linkedin4"></use>
-          </svg></li>
-              </ul>
-            </figure>
-          </li>
-        </ul>
+                  <img
+                    class="section-team__photo"
+                    src="images/img1.webp"
+                    alt="John Doe"
+                  />
+                </picture>
+                <!-- Pictures - tEAM -->
+
+                <figcaption class="section-team__figcaption">
+                  <span class="section-team__names">John Doe</span>
+                  <pre class="section-team__position">Product Designer</pre>
+                </figcaption>
+                <ul class="list section-team__icons-list">
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-ig"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-twitter-bird"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-f"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-linkedin4"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </figure>
+            </li>
+            <li>
+              <figure class="section-team__figure">
+                <!-- Pictures - tEAM -->
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      images/img2.webp                      1x,
+                      /images/team-webp/team2desktop@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /images/team-webp/team2tablet.webp   1x,
+                      /images/team-webp/team2tablet@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      images/team-webp/team2mobile.webp    1x,
+                      /images/team-webp/team2mobile@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <img
+                    class="section-team__photo"
+                    src="images/img2.webp"
+                    alt="John Doe"
+                  />
+                </picture>
+
+                <!-- Pictures - tEAM -->
+
+                <figcaption class="section-team__figcaption">
+                  <span class="section-team__names">John Doe</span>
+                  <pre class="section-team__position">Frontend Developer</pre>
+                </figcaption>
+                <ul class="list section-team__icons-list">
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use
+                        class="social-icon-our-team"
+                        href="./images/icons.svg#icon-ig"
+                      ></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-twitter-bird"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-f"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-linkedin4"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </figure>
+            </li>
+
+            <li>
+              <figure class="section-team__figure">
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      images/img3.webp                      1x,
+                      /images/team-webp/team3desktop@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /images/team-webp/team3tablet.webp   1x,
+                      /images/team-webp/team3tablet@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      images/team-webp/team3mobile.webp    1x,
+                      /images/team-webp/team3mobile@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <img
+                    class="section-team__photo"
+                    src="images/img3.webp"
+                    alt="John Doe"
+                  />
+                </picture>
+
+                <figcaption class="section-team__figcaption">
+                  <span class="section-team__names">John Doe</span>
+                  <pre class="section-team__position">Marketing</pre>
+                </figcaption>
+                <ul class="list section-team__icons-list">
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-ig"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-twitter-bird"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-f"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-linkedin4"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </figure>
+            </li>
+
+            <li>
+              <figure class="section-team__figure">
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      images/img4.webp                      1x,
+                      /images/team-webp/team4desktop@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      /images/team-webp/team4tablet.webp   1x,
+                      /images/team-webp/team4tablet@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      images/team-webp/team4mobile.webp    1x,
+                      /images/team-webp/team4mobile@2.webp 2x
+                    "
+                    type="image/webp"
+                  />
+
+                  <img
+                    class="section-team__photo"
+                    src="images/img4.webp"
+                    alt="John Doe"
+                  />
+                </picture>
+
+                <figcaption class="section-team__figcaption">
+                  <span class="section-team__names">John Doe</span>
+                  <pre class="section-team__position">UI Designer</pre>
+                </figcaption>
+                <ul class="list section-team__icons-list">
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-ig"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-twitter-bird"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-f"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon section-team__icon" width="44" height="44">
+                      <use href="./images/icons.svg#icon-linkedin4"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </figure>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="section section-clients">
         <div>
-        <h2 class="secondary-header">Nasi klienci</h2>
-        <ul class="list icons-list">
-          <li>
-            <figure class="section-clients__figure">
-          <svg class="icon our-clients" width="106" height="60">
-          <use href="./images/icons.svg#icon-logo1"></use>
-          </svg>
-            </figure>
-             
-          </li>
+          <h2 class="secondary-header">Nasi klienci</h2>
+          <ul class="list icons-list">
+            <li>
+              <figure class="section-clients__figure">
+                <svg class="icon our-clients" width="106" height="60">
+                  <use href="./images/icons.svg#icon-logo1"></use>
+                </svg>
+              </figure>
+            </li>
 
-          <li>
-            <figure class="section-clients__figure">
-               <svg class="icon" width="106" height="60">
-          <use href="./images/icons.svg#icon-logo2"></use>
-          </svg>
-            </figure>
-          </li>
+            <li>
+              <figure class="section-clients__figure">
+                <svg class="icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-logo2"></use>
+                </svg>
+              </figure>
+            </li>
 
-          <li>
-            <figure class="section-clients__figure">
-              <svg class="icon" width="106" height="60">
-          <use href="./images/icons.svg#icon-logo3"></use>
-          </svg>
-            </figure>
-          </li>
+            <li>
+              <figure class="section-clients__figure">
+                <svg class="icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-logo3"></use>
+                </svg>
+              </figure>
+            </li>
 
-          <li>
-            <figure class="section-clients__figure">
-            <svg class="icon" width="106" height="60">
-          <use href="./images/icons.svg#icon-logo4"></use>
-          </svg>
-            </figure>
-          </li>
+            <li>
+              <figure class="section-clients__figure">
+                <svg class="icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-logo4"></use>
+                </svg>
+              </figure>
+            </li>
 
-           <li>
-            <figure class="section-clients__figure">
-            <svg class="icon" width="106" height="60">
-          <use href="./images/icons.svg#icon-logo5"></use>
-          </svg>
-            </figure>
-          </li>
+            <li>
+              <figure class="section-clients__figure">
+                <svg class="icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-logo5"></use>
+                </svg>
+              </figure>
+            </li>
 
-           <li>
-            <figure class="section-clients__figure">
-            <svg class="icon" width="106" height="60">
-          <use href="./images/icons.svg#icon-logo6"></use>
-          </svg>
-            </figure>
-          </li>
-        </ul>
+            <li>
+              <figure class="section-clients__figure">
+                <svg class="icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-logo6"></use>
+                </svg>
+              </figure>
+            </li>
+          </ul>
         </div>
-      </section> 
+      </section>
     </main>
 
     <section class="section section-footer">
     <footer class="section-footer__footer-tag">
-       <div>
+       <div class="section-footer__logo-wrapper">
       <a class="section-footer__logo" href="index.html"  target="_blank" rel="noreferrer noopener">
         <span class="logo-part">Web</span>Studio</a
       >
