@@ -1,16 +1,17 @@
 /* ========= Sekcja: Nasi klienci ============= */
 
+
 .section-clients {
   max-width: 1200px;
   display: flex;
   justify-content: center;  
   margin: 0 auto;
-  padding: 94px 15px;
+  padding: 60px 15px;
  
 &__figure {
 display: flex;
 height: 92px;
-width: 170px;
+width: 210px;
 background-color: white;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
@@ -25,4 +26,26 @@ color:var(--interactive-elements-color);
 }
 }
 
+}
+
+@media screen and (min-width:768px) {
+.section-clients {
+
+&__figure {
+height: 92px;
+width: 226px;
+}
+}
+}
+
+
+@media screen and (min-width:1200px) {
+.section-clients {
+  padding: 94px 15px;
+
+&__figure {
+height: 92px;
+width: 170px;
+}
+}
 }

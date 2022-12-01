@@ -3,13 +3,14 @@
 .section-team {
 background-color: #F5F4FA;
 @media screen and (max-width: 1199px) {
-padding: 60px 0;
+
 
     }
 
 &__container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 60px 0;
  }
 
 &__list {
@@ -19,9 +20,11 @@ gap: 30px;
 flex-wrap: wrap;
 
 @media screen and (min-width: 1200px) {
-padding-bottom: 94px;
+.section-team {
+  padding-bottom: 94px;
     }
 }
+
 
 &__figure {
 background-color: white;
